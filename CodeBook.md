@@ -7,7 +7,7 @@ This code book summarizes the resulting data fields in `tidy_final.txt`.
 * `subject` - The ID of the test subject
 * `activity` - The type of activity performed when the corresponding measurements were taken
 
-## Measurements
+## Variables in the tidy data set 
 
 * 'tBodyAcc-mean()-X
 * 'tBodyAcc-mean()-Y
@@ -92,9 +92,9 @@ This code book summarizes the resulting data fields in `tidy_final.txt`.
 
 ## Activity Labels
 
-* `WALKING` 
-* `WALKING_UPSTAIRS` 
-* `WALKING_DOWNSTAIRS` 
-* `SITTING`
-* `STANDING`
-* `LAYING` 
+* `WALKING` - 1 
+* `WALKING_UPSTAIRS`-2 
+* `WALKING_DOWNSTAIRS`-3
+* `SITTING`-4
+* `STANDING`-5
+* `LAYING` -6
